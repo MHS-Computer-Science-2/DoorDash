@@ -5,9 +5,8 @@ using namespace std;
 
 //Struct for a MenuItem
 struct MenuItem {
-    string name;
-    int quantity;
-    double price;
+   //Add your 3 attributes here
+    
 };
 
 
