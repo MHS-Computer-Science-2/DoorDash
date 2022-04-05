@@ -14,7 +14,8 @@ int main()
 {
     //Name for the order
     string orderName;
-    //Items for the order
+
+    //vector to hold the MenuItems
     vector<MenuItem> orderItems;
 
     //Ask the user to enter the name on the order
