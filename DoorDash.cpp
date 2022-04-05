@@ -47,18 +47,17 @@ int main()
     } //End of while loop
 
 
+    // Add the order name to the cout below
     cout << endl;
-    cout << "*************" << endl;
-    cout << "Order Summary " << endl;
-    cout << "*************" << endl;
-   
-    // Display the name
+    cout << "**************************" << endl;
+    cout << "Order Summary for " << endl;
+    cout << "**************************" << endl;
    
 
     // Display the MenuItems
 
 
-    // Display the final order total
+    // Display the order total
 
 
 
