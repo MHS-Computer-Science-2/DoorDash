@@ -24,35 +24,41 @@ int main()
 
     //Ask the user to enter items until they type "checkout"
     while (true) {
+        // Create a MenuItem object, set the object values to what the user enters 
+       
+       
         // Ask the user to enter the item name
-        cout << "What item would you like to add (or type checkout to complete order)" << endl;
-        string name;
-        cin >> name;
+        cout << "What item would you like to add (or type checkout to complete order)?" << endl;
+   
 
-        // break; if they enter "checkout"
+        // break; the loop if they enter "checkout"
 
 
         // Ask the user to enter the price of the menu item
+        cout << "What is the price of this item?" << endl;
  
 
         // Ask the user to enter how many of the menu item they want
+        cout << "How many of this item do you want?" << endl;
 
-
-        // Create a MenuItem object, set the object values to what the user entered, 
-        // and push the object onto the vector
+       
+        // Add the object to the vector
    
-    }
+    } //End of while loop
 
 
     cout << endl;
     cout << "*************" << endl;
     cout << "Order Summary " << endl;
     cout << "*************" << endl;
+   
+    // Display the name
+   
 
-    //Display the MenuItems
+    // Display the MenuItems
 
 
-    //Display the final order total
+    // Display the final order total
 
 
 
