@@ -24,7 +24,7 @@ int main()
 
     //Ask the user to enter items until they type "checkout"
     while (true) {
-        // Create a MenuItem object, set the object values to what the user enters 
+        // Create a MenuItem object. You will set the object's attributes to what the user enters below.
        
        
         // Ask the user to enter the item name
